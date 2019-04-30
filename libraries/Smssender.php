@@ -7,7 +7,7 @@ class Smssender {
 	    $password = SMSPASS;
 	    $destination = "$phone"; //Multiple numbers can be entered, separated by a comma
 	    $source    = 'LOOK FOR';
-	    $text = $message;;
+	    $text = $message;//Sanitzing is needed
 	    $ref = 'abc123';
 	    //$ref = $this->model_user->is_loged()."".$id_room."".$id_unit.date('s');
 	        
